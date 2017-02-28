@@ -28,6 +28,27 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             print("Ready to Go")
             mapView.showsUserLocation = true
             manager.startUpdatingLocation()
+            
+            Timer.scheduledTimer(withTimeInterval: 5, repeats: true, block: { (Timer) in
+                // Spawn a Pokemon
+                if let coord = self.manager.location?.coordinate{
+                let anno = MKPointAnnotation()
+                
+                anno.coordinate = coord
+                let randoLat = (Double(arc4random_uniform(200)) - 100.0) / 500000.0
+                    
+                let randoLon = (Double(arc4random_uniform(200)) - 100) / 500000.0
+                    
+    
+                anno.coordinate.latitude += randoLat
+                anno.coordinate.longitude += randoLon
+                    
+                   self.mapView.addAnnotation(anno)
+                }
+            })
+            
+            
+            
         } else {
             manager.requestWhenInUseAuthorization()
           
@@ -37,7 +58,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         func locationManager(_ manager: CLLocationManager, didUpdateLocations: [CLLocation]){
             
             if updateCount < 3 {
-                let region = MKCoordinateRegionMakeWithDistance(manager.location!.coordinate, 100, 100)
+                let region = MKCoordinateRegionMakeWithDistance(manager.location!.coordinate, 300, 300)
                 mapView.setRegion(region, animated: false)
                 updateCount += 1
             }else{
@@ -45,12 +66,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             }
     
             }
+    @IBAction func centerTapped(_ sender: Any) {
+        if let coord = manager.location?.coordinate{
+        let region = MKCoordinateRegionMakeWithDistance(coord, 300, 300)
+        mapView.setRegion(region, animated: true)
+    }
  
             
         }
 
-        
-        
+}
+
         
 
 

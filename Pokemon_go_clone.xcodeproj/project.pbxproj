@@ -16,6 +16,7 @@
 		E0754C381E57E03E001FA41B /* Pokemon_go_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0754C371E57E03E001FA41B /* Pokemon_go_cloneTests.swift */; };
 		E0754C431E57E03E001FA41B /* Pokemon_go_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0754C421E57E03E001FA41B /* Pokemon_go_cloneUITests.swift */; };
 		E0754C521E57E143001FA41B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0754C511E57E143001FA41B /* MapKit.framework */; };
+		FC8CA6171E655ADA00121796 /* pokedekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CA6161E655ADA00121796 /* pokedekViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E0754C421E57E03E001FA41B /* Pokemon_go_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_go_cloneUITests.swift; sourceTree = "<group>"; };
 		E0754C441E57E03E001FA41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0754C511E57E143001FA41B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FC8CA6161E655ADA00121796 /* pokedekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokedekViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E0754C1F1E57E03D001FA41B /* AppDelegate.swift */,
 				E0754C211E57E03D001FA41B /* ViewController.swift */,
 				E0754C231E57E03D001FA41B /* Main.storyboard */,
+				FC8CA6161E655ADA00121796 /* pokedekViewController.swift */,
 				E0754C291E57E03D001FA41B /* Assets.xcassets */,
 				E0754C2B1E57E03D001FA41B /* LaunchScreen.storyboard */,
 				E0754C2E1E57E03D001FA41B /* Info.plist */,
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8CA6171E655ADA00121796 /* pokedekViewController.swift in Sources */,
 				E0754C221E57E03D001FA41B /* ViewController.swift in Sources */,
 				E0754C201E57E03D001FA41B /* AppDelegate.swift in Sources */,
 				E0754C281E57E03D001FA41B /* Pokemon_go_clone.xcdatamodeld in Sources */,
@@ -530,6 +534,7 @@
 				E0754C491E57E03E001FA41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0754C4A1E57E03E001FA41B /* Build configuration list for PBXNativeTarget "Pokemon_go_cloneTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +543,7 @@
 				E0754C4C1E57E03E001FA41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0754C4D1E57E03E001FA41B /* Build configuration list for PBXNativeTarget "Pokemon_go_cloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +552,7 @@
 				E0754C4F1E57E03E001FA41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
