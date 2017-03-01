@@ -16,6 +16,7 @@
 		E0754C381E57E03E001FA41B /* Pokemon_go_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0754C371E57E03E001FA41B /* Pokemon_go_cloneTests.swift */; };
 		E0754C431E57E03E001FA41B /* Pokemon_go_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0754C421E57E03E001FA41B /* Pokemon_go_cloneUITests.swift */; };
 		E0754C521E57E143001FA41B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0754C511E57E143001FA41B /* MapKit.framework */; };
+		FC6297361E6766DC0086C647 /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6297351E6766DC0086C647 /* PokeAnnotation.swift */; };
 		FC8CA6171E655ADA00121796 /* pokedekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CA6161E655ADA00121796 /* pokedekViewController.swift */; };
 		FC8CA6191E6569D800121796 /* coreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CA6181E6569D800121796 /* coreDataHelp.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		E0754C421E57E03E001FA41B /* Pokemon_go_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_go_cloneUITests.swift; sourceTree = "<group>"; };
 		E0754C441E57E03E001FA41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0754C511E57E143001FA41B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FC6297351E6766DC0086C647 /* PokeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
 		FC8CA6161E655ADA00121796 /* pokedekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokedekViewController.swift; sourceTree = "<group>"; };
 		FC8CA6181E6569D800121796 /* coreDataHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coreDataHelp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 				E0754C211E57E03D001FA41B /* ViewController.swift */,
 				E0754C231E57E03D001FA41B /* Main.storyboard */,
 				FC8CA6161E655ADA00121796 /* pokedekViewController.swift */,
+				FC6297351E6766DC0086C647 /* PokeAnnotation.swift */,
 				FC8CA6181E6569D800121796 /* coreDataHelp.swift */,
 				E0754C291E57E03D001FA41B /* Assets.xcassets */,
 				E0754C2B1E57E03D001FA41B /* LaunchScreen.storyboard */,
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8CA6171E655ADA00121796 /* pokedekViewController.swift in Sources */,
+				FC6297361E6766DC0086C647 /* PokeAnnotation.swift in Sources */,
 				E0754C221E57E03D001FA41B /* ViewController.swift in Sources */,
 				E0754C201E57E03D001FA41B /* AppDelegate.swift in Sources */,
 				FC8CA6191E6569D800121796 /* coreDataHelp.swift in Sources */,
